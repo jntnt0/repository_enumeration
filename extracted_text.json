@@ -1,0 +1,15 @@
+[
+    {
+        "file_name": "setup.py",
+        "content": "from setuptools import setup, find_packages\n\nsetup(\n    name='pcap_enumerator',\n    version='0.1',\n    packages=find_packages(),\n    install_requires=[\n        'scapy',\n        'dpkt',\n        'plotly',\n    ],\n    entry_points={\n        'console_scripts': [\n            'pcap-enumerator=src.main:main',\n        ],\n    },\n)\n",
+        "function_names": [],
+        "variable_names": [
+            "name",
+            "version",
+            "packages",
+            "install_requires",
+            "entry_points",
+            "enumerator"
+        ]
+    }
+]

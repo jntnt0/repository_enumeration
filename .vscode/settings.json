@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/repo_data_",
+        "./src/repo_data_",
+        "./src/repo_data_"
+    ]
+}
